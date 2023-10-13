@@ -103,7 +103,7 @@ export class HomeComponent {
       "framework" : this.framework
     };
     
-    this.http.patch("http://localhost:8000/update"+ "/"+this.currentID,bodyData).subscribe((resultData: any)=>
+    this.http.put("http://localhost:8000/update"+ "/"+this.currentID,bodyData).subscribe((resultData: any)=>
     {
         console.log(resultData);
         alert("Server details updated!")
