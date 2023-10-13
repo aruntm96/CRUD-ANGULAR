@@ -1,1 +1,24 @@
-<p>add works!</p>
+<div class="form_group">
+    <form>
+        <h3>Add details</h3>
+        <div class="form_control">
+            <label>Name</label>
+            <input type="text" [(ngModel)] = "name" [ngModelOptions]="{standalone: true}" required>
+        </div>
+        <div class="form_control">
+            <label>ID</label>
+            <input type="text" [(ngModel)] = "id" [ngModelOptions]="{standalone: true}" required>
+        </div>
+        <div class="form_control">
+            <label>Language</label>
+            <input type="text" [(ngModel)] = "language" [ngModelOptions]="{standalone: true}" required>
+        </div>
+        <div class="form_control">
+            <label>Framework</label>
+            <input type="text" [(ngModel)] = "framework" [ngModelOptions]="{standalone: true}" required>
+        </div>
+        <div class="form_control">
+            <button type="submit" (click)="save()" [routerLink]="['/']">Save</button>
+        </div>
+    </form>
+</div>
