@@ -1,0 +1,122 @@
+.container {
+    display: flex;
+}
+
+.table-container, .form-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.table-container {
+    margin-right: 10px;
+}
+
+.search_container{
+    margin-left: 110px;
+}
+
+#search{
+    width: 65%;
+    margin-right: 5px;
+}
+
+.search_container button {
+    padding: 8px 16px;
+    background-color: dodgerblue; 
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.search_container button:hover {
+    background-color: #0056b3;
+}
+
+.title{
+    text-align: center;
+}
+
+table, tr, th, td{
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: large;
+    padding: 10px;
+}
+
+table button{
+    border-radius: 5px;
+    padding: 5px;
+    background-color:bisque;
+    margin-right: 10px;
+    font-size: large;
+    cursor: pointer;
+}
+
+table button:hover
+{
+    border-color: #333;
+    background-color: tan;
+}
+
+.form_group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.form_control {
+    margin: 10px 0;
+}
+
+.form_group h3 {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+}
+
+input {
+    width: calc(100% - 12px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form_control button {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: dodgerblue;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+}
+
+.form_control button:hover {
+    background-color: #0056b3;
+}
