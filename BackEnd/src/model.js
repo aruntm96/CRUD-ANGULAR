@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-var projectSchema = new Schema({
+var serverSchema = new Schema({
     name: {
         type: String,
         required: true
@@ -20,6 +20,6 @@ var projectSchema = new Schema({
     }
 });
 
-const project_details = mongoose.model('projects', projectSchema);
+const server_details = mongoose.model('server_details', serverSchema);
 
-module.exports = project_details;
+module.exports = server_details;
